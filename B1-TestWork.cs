@@ -93,8 +93,7 @@ void SelectStringsFromArray(string[] inputArray, out string[] outputArray, int m
 void PrintArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
-    {
         Console.WriteLine($"[{i}] {array[i]}");
-    }
+        
     Console.WriteLine();
 }
